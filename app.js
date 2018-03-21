@@ -1,3 +1,4 @@
+/* Product listing */
 var products = [
   {
     product: "Sony A7 III",
@@ -33,7 +34,20 @@ var products = [
 
 
 for (let i = 0; i < products.length; i++) {
-  $('#product_container').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
+  $('#product_container1').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
+}
+
+for (let i = 0; i < products.length; i++) {
+  $('#product_container2').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
+}
+for (let i = 0; i < products.length; i++) {
+  $('#product_container3').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
+}
+for (let i = 0; i < products.length; i++) {
+  $('#product_container4').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
+}
+for (let i = 0; i < products.length; i++) {
+  $('#product_container5').append('<div class="item"><div class="image"><img id="product_image" src="' + products[i].image + '" alt="Something went wrong"></div><div class="text"><p class="name">' + products[i].product + '<span class="span1">' + +'</span></p><p class="info">' + products[i].info + '</p></div><div class="btn"><a href="#">Buy</a></div></div>')
 }
 
 

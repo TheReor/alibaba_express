@@ -22,7 +22,7 @@ header h1 {
 #container {
     padding-top: 3px;
     padding-right: 5px;
-    padding-left: 3px;
+    padding-left: 9px;
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(214, 214, 214);
@@ -45,12 +45,12 @@ header h1 {
     padding-left: 30px;
 }
 
-#product_container {
+#product_container1 {
     display: flex;
     flex-wrap: wrap;
 }
 
-#product_container .item {
+#product_container1 .item {
     width: 170px;
     height: 220px;
     background-color: rgb(228, 228, 228);
@@ -58,18 +58,175 @@ header h1 {
     border-radius: 10px;
 }
 
-#product_container .item .image {
+#product_container1 .item .image {
     width: 100%;
     height: 40%;
     background-color: black;
     border-top-left-radius: 10px;
 }
 
+hr {
+    padding-top: 60px;
+    border: none;
+    height: 20px;
+    width: 102%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+#product_container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product_container2 .item {
+    width: 170px;
+    height: 220px;
+    background-color: rgb(228, 228, 228);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#product_container2 .item .image {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+hr {
+    padding-top: 60px;
+    border: none;
+    height: 20px;
+    width: 102%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+#product_container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#product_container3 .item {
+    width: 170px;
+    height: 220px;
+    background-color: rgb(228, 228, 228);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#product_container3 .item .image {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+#product_container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr {
+    padding-top: 60px;
+    border: none;
+    height: 20px;
+    width: 102%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+#product_container4 .item {
+    width: 170px;
+    height: 220px;
+    background-color: rgb(228, 228, 228);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#product_container4 .item .image {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+#product_container4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+hr {
+    padding-top: 60px;
+    border: none;
+    height: 20px;
+    width: 102%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px;
+}
+
+#product_container5 .item {
+    width: 170px;
+    height: 220px;
+    background-color: rgb(228, 228, 228);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#product_container5 .item .image {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    border-top-left-radius: 10px;
+}
+
+#product_container5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #product_image {
     border-top-left-radius: 10px;
 }
 
-#product_container .item .text {
+#product_container1 .item .text {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(228, 228, 228);
+}
+
+#product_container2 .item .text {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(228, 228, 228);
+}
+
+#product_container3 .item .text {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(228, 228, 228);
+}
+
+#product_container4 .item .text {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(228, 228, 228);
+}
+
+#product_container5 .item .text {
     width: 100%;
     height: 40%;
     background-color: rgb(228, 228, 228);
@@ -96,7 +253,14 @@ header h1 {
     padding-left: 5px;
 }
 
-#product_container .item .bottom {
+#product_container1 .item .bottom {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(0, 0, 0);
+    border-bottom-right-radius: 10px;
+}
+
+#product_container2 .item .bottom {
     width: 100%;
     height: 15%;
     background-color: rgb(0, 0, 0);
